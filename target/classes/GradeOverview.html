@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>2x11 Table</title>
+  <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 10px;
+        }
+        th[scope="col"] {
+            background-color: #f1f1f1;
+        }
+        .container1 {
+            display: flex;
+            justify-content: center;
+        }
+        .container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .text-box {
+            border: 0px solid black;
+            padding: 10px;
+            margin-top: 5px;
+            right: 0px;
+        }
+    </style>
+</head>
+<body>
+<div class="container1">
+  <h1>Notenspiegel</h1>
+</div>
+<div class="container1">
+  <div class="container2">
+    <table>
+      <tr>
+        <th scope="col"> 1,0 </th><th scope="col"> 1,3 </th><th scope="col"> 1,7 </th><th scope="col"> 2,0 </th><th scope="col"> 2,3 </th>
+        <th scope="col"> 2,7 </th><th scope="col"> 3,0 </th><th scope="col"> 3,3 </th><th scope="col"> 3,7 </th><th scope="col"> 4,0 </th><th scope="col"> 5,0 </th>
+      </tr>
+      <tr>
+        <td> 15 </td><td> 17 </td><td> 10 </td><td> 15 </td><td> 18 </td><td> 26 </td><td> 27 </td><td> 40 </td><td> 29 </td><td> 8 </td><td> 122 </td>
+      </tr>
+    </table>
+    <div class="text-box">
+      <b> Durchschnitt inkl. 5,0: </b> 3,541284
+    </div>
+    <div class="text-box">
+      <b> Durchschnitt exkl. 5,0: </b> 2,673171
+    </div>
+    <div class="text-box">
+      <b> Vorliegende Ergebnisse: </b> 327
+    </div>
+  </div>
+</div>
+</body>
+</html>

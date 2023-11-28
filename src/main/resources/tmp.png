@@ -1,0 +1,1 @@
+BufferedImage@68be2bc2: type = 12 IndexColorModel: #pixelBits = 1 numComponents = 3 color space = java.awt.color.ICC_ColorSpace@3ffc5af1 transparency = 1 transIndex   = -1 has alpha = false isAlphaPre = false BytePackedRaster: width = 828 height = 461 #channels 1 xOff = 0 yOff = 0
